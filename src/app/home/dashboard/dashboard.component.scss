@@ -1,0 +1,108 @@
+ion-content{
+    width: 100%;
+    height:calc(100vh - 120px);
+    .profile{
+        width: 100%;
+        height: 150px;
+        background-color: #49c58f;
+        padding: 20px;
+        display: flex;
+        clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 100%);
+        img{
+            width: 80px;
+            height: 80px;
+            float: left;
+            border-radius: 50%;
+        }
+        .title{
+            span{
+                line-height: 80px;
+                color: #fff;
+                font-size: 22px;
+                padding: 5px;
+            }
+        }
+    }
+    .pic{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding:0px 10px;
+        img{
+            width: 100%;
+            height: 25vh;
+            border-radius: 10px;
+        }
+    }
+    .txt{
+        padding:0px 15px;
+    }
+    .course_section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card{
+        width:48%;
+        height: auto;
+        padding: 1%;
+        margin-left: 2%;
+        margin-top: 2%;
+        border-radius: 10px;
+        background-color: #49c58f;
+        img{
+            width: 60px;
+            height: 60px;
+            float: left;
+            margin-top: 10px;
+            border-radius: 50%;
+        }
+        .title{
+            margin-left: 10px;
+            span{
+                line-height: 85px;
+                color: #fff;
+                font-size: 18px;
+                padding: 5px;
+            }
+        }
+    }
+    .quiz{
+        width: 100%;
+        float: none;
+        height: 10vh;
+        padding: 20px;
+
+        ion-button{
+            width: 100%;
+            height: 45px;
+            color: #49c58f;
+            border: 2px solid #49c58f;
+            --background: none;
+            border-radius: 2rem;
+        }
+    }
+    .video-title{
+        width: 100%;
+        height: auto;
+        padding: 0px 10px;
+    }
+    .video-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 0px;
+        justify-content: space-between;
+        .vid{
+            width: 200px;
+            height: auto;
+            margin-left: 10px;
+            border-radius: 10px;
+            background-color: #49c58f;
+        }
+        video{
+            width: 100%;
+            height: 100px;
+        }
+    }
+}

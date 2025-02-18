@@ -1,0 +1,7 @@
+{
+  "name": "Eduaffair",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

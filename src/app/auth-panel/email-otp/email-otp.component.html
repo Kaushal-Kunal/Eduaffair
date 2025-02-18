@@ -1,0 +1,32 @@
+<ion-content>
+  <div class="verify">
+    <ion-icon name="arrow-back-outline" routerLink="/auth/email-verify"></ion-icon>
+    <span>OTP Verify</span>
+  </div>
+  <div class="img">
+    <img src="../../../assets/image/otp.png">
+  </div>
+  <div class="container">
+    <h3>Enter OTP</h3>
+    <span>OTP is send to kaushalkunal2850&#64;gmail.com</span>
+    <ion-button shape="round" routerLink="/auth/email-verify">Change</ion-button>
+  </div>
+  <div class="input_box">
+    <ion-input maxlength="1" autofocus=""/>
+    <ion-input maxlength="1" autofocus=""/>
+    <ion-input maxlength="1" autofocus=""/>
+    <ion-input maxlength="1" autofocus=""/>
+    <ion-input maxlength="1" autofocus=""/>
+    <ion-input maxlength="1" autofocus=""/>
+  </div>
+  <div class="resend">
+    <button id="resend-btn" onclick="sendOTP()">Resend OTP</button>
+  <p id="timer"></p>
+  </div>
+  <div class="footer">
+    
+    <ion-button shape="round" routerLink="/auth/forget-pwd">Verify OTP</ion-button><br><br>
+    <span>Having trouble?</span><br><br>
+    <span>Write to us at techglitch&#64;gmail.com</span>
+  </div>
+</ion-content>

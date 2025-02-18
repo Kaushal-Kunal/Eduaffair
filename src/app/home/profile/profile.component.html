@@ -1,0 +1,46 @@
+<ion-content>
+  <div class="profile">
+    <ion-icon name="arrow-back" routerLink="/home/account"></ion-icon>
+    <span>Profile</span>
+  </div>
+  <div class="account-section">
+    <div class="image-container" routerLink="/home/profile">
+      <img src="../../../assets/image/profile.png" alt="">
+      <!-- <ion-icon name="eye-outline"></ion-icon> -->
+        <span>Username</span>
+    </div>
+    <div class="profile-container">
+      <h5>User name</h5>
+      <ion-input labelPlacement="stacked" placeholder="Enter Username">
+        <ion-icon slot="start" name="person-circle" aria-hidden="true"></ion-icon>
+        <ion-button fill="clear" slot="end" aria-label="Show/hide">
+          <ion-icon slot="icon-only" name="eye" aria-hidden="true"></ion-icon>
+        </ion-button>
+      </ion-input>
+      <h5>Mobile number</h5>
+      <ion-input labelPlacement="stacked" placeholder="Enter Mobile number">
+        <ion-icon slot="start" name="call" aria-hidden="true"></ion-icon>
+        <ion-button fill="clear" slot="end" aria-label="Show/hide">
+          <ion-icon slot="icon-only" name="eye" aria-hidden="true"></ion-icon>
+        </ion-button>
+      </ion-input>
+      <h5>Email id</h5>
+      <ion-input labelPlacement="stacked" placeholder="Enter Email ID">
+        <ion-icon slot="start" name="mail" aria-hidden="true"></ion-icon>
+        <ion-button fill="clear" slot="end" aria-label="Show/hide">
+          <ion-icon slot="icon-only" name="eye" aria-hidden="true"></ion-icon>
+        </ion-button>
+      </ion-input>
+      <h5>Password</h5>
+      <ion-input labelPlacement="stacked" placeholder="Enter Password">
+        <ion-icon slot="start" name="lock-closed" aria-hidden="true"></ion-icon>
+        <ion-button fill="clear" slot="end" aria-label="Show/hide">
+          <ion-icon slot="icon-only" name="eye" aria-hidden="true"></ion-icon>
+        </ion-button>
+      </ion-input>
+    </div>
+    <div class="footer">
+      <ion-button shape="round">Udate Now</ion-button>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,19 @@
+<ion-content>
+  <div class="verify">
+    <ion-icon name="arrow-back-outline" routerLink="/auth/email-otp"></ion-icon>
+    <span>OTP Verify</span>
+  </div>
+  <div class="header">
+    <img src="../../../assets/image/pwd.png">
+    <h2>Let's get started</h2>
+  </div>
+  <div class="pwd">
+    <ion-input labelPlacement="stacked" label="Password">
+      <ion-icon slot="start" name="lock-closed" aria-hidden="true"></ion-icon>
+    </ion-input>
+    <ion-input labelPlacement="stacked" label="Conforn New Password">
+      <ion-icon slot="start" name="lock-closed" aria-hidden="true"></ion-icon>
+    </ion-input>
+    <ion-button shape="round" routerLink="/auth/login">CHANGE PASSWORD</ion-button>
+  </div>
+</ion-content>
