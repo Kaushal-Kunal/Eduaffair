@@ -1,0 +1,10 @@
+{
+  "appId": "com.dom.app",
+  "appName": "Eduaffair",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}

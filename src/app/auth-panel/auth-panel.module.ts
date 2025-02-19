@@ -8,6 +8,7 @@ import { EmailVerifyComponent } from './email-verify/email-verify.component';
 import { EmailOtpComponent } from './email-otp/email-otp.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { ForgetPwdComponent } from './forget-pwd/forget-pwd.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ForgetPwdComponent } from './forget-pwd/forget-pwd.component';
   imports: [
     CommonModule,
     AuthPanelRoutingModule,
-    IonicModule
+    IonicModule,
+    FormsModule
   ]
 })
 export class AuthPanelModule { }
